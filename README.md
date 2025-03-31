@@ -92,6 +92,14 @@ So for example, to check the current time, we will write:
 ```python
 time := __import__('time').time()
 ```
+## Logic
+all logic operators (or, and, etc) are the same as regular python. 
+### `if` statements
+in Py-Row, `if` statements are done using pythons inline `if` feature.
+<br>
+```python
+thing() if condition else something_else() 
+```
 ## Loops
 Loops are super important for many algorithms to work, Py-Row supports both `for` and `while` loops.
 ### `for` loops
